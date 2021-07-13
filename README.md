@@ -1,44 +1,18 @@
-# Convertisseur
+# Converter devise React
 
-## Objectif
+## Introduction
 
-Réaliser ce projet
+converter-devise-react is a React project that allows you to convert one currency into another with some animations.
+
+## Content
 
 ![](resultat.gif)
 
-## Instructions
 
-- Commencer par la structure fondamentale (les blocs principaux)
-- Créer les composants
-- Un peu de style
-- Identifier les données à transmettre
-- Placer des props
-- Dynamiser avec `src/data/currencies.js`
+## Support
 
-## Styles
+Please file issues here at Github.
 
-### Font
+Mail: alex-viard@hotmail.fr 
 
-[Spartan](https://fonts.google.com/?query=spartan)
-- `300` : textes
-- `500` : liste de devises
-- `700` : titre et résultat
-
-### Couleurs
-
-- Principale `#bb5432`
-- Alternative `#f1c5b6`
-- Claire `#fff`
-
-### Transitions
-
-- Rapide : `0.2s`
-- Lente : `1s`
-
-
-## Whaaat ?
-
-- https://fr.reactjs.org/docs/components-and-props.html#composing-components
-- https://fr.reactjs.org/docs/introducing-jsx.html#embedding-expressions-in-jsx
-- https://developer.mozilla.org/fr/docs/Web/CSS/overflow
-- https://developer.mozilla.org/fr/docs/Web/CSS/transition
+Created and maintained by [Alex Viard](https://github.com/AlexViard)
