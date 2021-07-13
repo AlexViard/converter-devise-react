@@ -1,0 +1,39 @@
+@use 'src/styles/vars';
+
+.currencies {
+  background-color: vars.$light-color;
+  color: vars.$primary-color;
+  height: 300px;
+  overflow: auto;
+
+   &__search {
+    padding: 1.5em 1em 1em 1em;
+    font-weight: vars.$title-weight;
+    border: none;
+    border-bottom: 1px solid vars.$secondary-color;
+    color: vars.$primary-color;
+    width: 100%;
+    font-size: 1em;
+
+    &::placeholder {
+      color: vars.$primary-color;;
+    }
+  } 
+
+  .currencie {
+    font-weight: vars.$currencies-weight;
+    padding: 1em;
+    border-bottom: 1px solid vars.$secondary-color;
+    cursor: pointer;
+    transition: vars.$transition-fast;
+
+    &:hover {
+      background-color: vars.$secondary-color;
+    }
+  }
+
+  
+}
+
+
+// haut | droit | bas | gauche

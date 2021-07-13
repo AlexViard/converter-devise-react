@@ -1,0 +1,25 @@
+@use 'src/styles/vars';
+
+.conversion {
+  background-color: vars.$light-color;
+  padding: 2em;
+  text-align: center;
+  color: vars.$primary-color;
+  
+  &__rate {
+    font-weight: vars.$title-weight;
+    font-size: 2em;
+  }
+
+  &__name {
+    font-weight: vars.$text-weight;
+    margin-top: 1em;
+    font-size: 1.4em;
+  }
+
+  &__empty {
+    font-weight: vars.$currencies-weight;;
+    margin-top: 1em;
+    font-size: 1.4em;
+  }
+}
